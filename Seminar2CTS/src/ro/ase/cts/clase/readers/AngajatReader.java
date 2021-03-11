@@ -22,8 +22,6 @@ public class AngajatReader extends Reader {
 
 	public List<Aplicant> citesteAplicanti() throws FileNotFoundException {
 		
-		
-		
 		Scanner input2 = new Scanner(new File(super.fileName));
 		input2.useDelimiter(",");
 		List<Aplicant> angajati = new ArrayList<Aplicant>();
