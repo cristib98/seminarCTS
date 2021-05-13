@@ -1,7 +1,7 @@
 package ro.ase.cts.decorator.clase;
 
 public abstract class DecoratorAbstract implements BiletAbstract{
-	BiletAbstract biletAbstract;
+	private BiletAbstract biletAbstract;
 
 	public DecoratorAbstract(BiletAbstract biletAbstract) {
 		super();
